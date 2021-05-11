@@ -18,8 +18,11 @@ public class Demo1 {
 	@Test(priority=8 ,  groups = {"smoke" , "regression"})
 	public void test3() {
 		System.out.println("Test 3");
-		int i = 10/0;
-		System.out.println(i);
+
+		int i = 10;
+		int j =20;
+		System.out.println(i+j);
+
 	}
 
 }
