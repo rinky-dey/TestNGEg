@@ -19,7 +19,8 @@ public class Demo1 {
 	public void test3() {
 		System.out.println("Test 3");
 		int i = 10;
-		System.out.println(i);
+		int j =20;
+		System.out.println(i+j);
 	}
 
 }
